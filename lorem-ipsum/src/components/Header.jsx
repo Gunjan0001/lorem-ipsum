@@ -17,13 +17,13 @@ const Header = () => {
                   data-aos="fade-right"
                   data-aos-delay="300"
                   data-aos-offset="200"
-                  data-aos-duration="2000"
+                  data-aos-duration="3000"
                 >
                   <div className="text-center text-xl-start">
                     <h2 className="ff_source_sans_pro fw_large fs_81 lorem_clr">
                       LOREM IPSUM
                     </h2>
-                    <p className="ff_source_sans_pro fw-semibold fs_30 para_color mb-0  mw_600">
+                    <p className="ff_source_sans_pro fw-semibold fs_30 para_color mb-0 mw_750  mw_600">
                       Lorem Ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut temper labore et
                       dolore magna aliqua.
@@ -34,13 +34,13 @@ const Header = () => {
                       aliqua.
                     </p>
                     <div className="d-sm-flex align-items-center gap-sm-5 mt-5 justify-content-center  justify-content-xl-start">
-                      <span className="d-flex align-items-center twitter_btn border-0 gap-2  justify-content-center">
-                        <img className="wh_49" src={twitter} alt="twitter" />
+                      <span className="d-flex w_btn mx-auto mx-sm-0 align-items-center twitter_btn border-0 gap-2  justify-content-center cursor_pointer">
+                        <img className="wh_49 " src={twitter} alt="twitter" />
                         <p className="mb-0  ff_fira_code fw_medium fs_32 clr_9">
                           Twitter
                         </p>
                       </span>
-                      <span className="d-flex align-items-center discord_btn border-0 gap-3 mt-4 mt-sm-0 justify-content-center">
+                      <span className="d-flex align-items-center w_btn mx-auto mx-sm-0 discord_btn border-0 gap-3 mt-4 mt-sm-0 justify-content-center cursor_pointer">
                         <img className="wh_49" src={discord} alt="discord" />
                         <p className="mb-0 ff_fira_code fw_medium fs_32 clr_9">
                           Discord
@@ -55,7 +55,7 @@ const Header = () => {
                   data-aos="fade-left"
                   data-aos-delay="300"
                   data-aos-offset="200"
-                  data-aos-duration="2000"
+                  data-aos-duration="3000"
                 >
                   <img className="w-100 mt-5 mt-xl-0" src={image} alt="image" />
                 </div>

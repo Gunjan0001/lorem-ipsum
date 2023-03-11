@@ -52,7 +52,7 @@
   --ff-source-sans-pro: "source sans pro";
   --ff-fira-code: "fira code";
   --ff-space-mono: "space mono";
-  --ff-open-sans: "open   sans";
+  --ff-open-sans: "open sans";
 }
 
 /* font-family */
@@ -252,6 +252,8 @@
   background: linear-gradient(106.8deg, rgba(255, 255, 255, 0.93) 24.1%, rgba(255, 255, 255, 0.34) 73.23%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px rgba(253, 0, 243, 0.34);
+  ;
   background-clip: text;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
     0px 4px 24px rgba(0, 0, 0, 0.25);
@@ -349,7 +351,7 @@
 }
 
 .roadmap_btn:hover {
-  background: linear-gradient(90deg, #22A2FF 6.42%, #F72BEE 92.64%) !important;
+
   color: white !important;
 }
 
@@ -445,7 +447,7 @@
 
 .twitter_btn:hover {
   background: transparent !important;
-  border-radius: 0 15px 0 15px !important;
+  /* border-radius: 0 15px 0 15px !important; */
 }
 
 .twitter_btn::after {
@@ -491,6 +493,44 @@
 /* RARITY */
 .rarity_bg {
   background: linear-gradient(180deg, #09244E 0%, #04142D 100%);
+}
+
+/* 
+.btndude_overlay {
+  background: #626c93;
+  bottom: -9px;
+  left: 0;
+  z-index: -1;
+}
+
+.z_index0 {
+  position: absolute !important;
+  z-index: 0 !important;
+}
+
+.btndude,
+.btndude_overlay {
+  border-radius: 7px;
+  transition: all .3s ease-in-out;
+}
+
+.btndude {
+  background: linear-gradient(99.34deg, #4fb6ff 13.11%, #f72bed 94.12%);
+  position: relative;
+  z-index: 123 !important;
+
+} */
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 7px;
+  top: 10px;
+  left: 0;
+  z-index: -1;
+
 }
 
 .button_rarity {
@@ -540,11 +580,15 @@
   color: white !important;
 }
 
+.cursor_pointer {
+  cursor: pointer;
+}
+
 .my_col {
   width: 20% !important;
 }
 
-.map {
+.cards {
   background: rgba(255, 255, 255, 0.06);
   box-shadow: 0px 5.71459px 5.71459px rgba(0, 0, 0, 0.25),
     0px 5.71459px 34.2875px rgba(0, 0, 0, 0.25);
@@ -610,6 +654,30 @@
   background: linear-gradient(180deg, #09244E 0%, #04142D 100%);
 }
 
+.border_bottom {
+  border-bottom: 9px solid linear-gradient(270deg, rgba(255, 255, 255, 0.270179) 0%, rgba(255, 255, 255, 0.59) 49.82%, rgba(255, 255, 255, 0) 100%);
+  position: relative;
+}
+
+.z_index {
+  z-index: 3;
+}
+
+.border_bottom::after {
+  position: absolute;
+  content: "";
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0.270179) 0%, rgba(255, 255, 255, 0.59) 49.82%, rgba(255, 255, 255, 0) 100%);
+  ;
+
+  bottom: 0;
+  inset: 0;
+  mask: linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask-composite: xor;
+  pointer-events: none;
+  padding: 9px;
+}
+
 .faq_shadow {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 9.55%, rgba(255, 255, 255, 0.09) 100%);
   border-radius: 16.0176px;
@@ -650,6 +718,7 @@
 
   border: 1px solid #FFFFFF;
   border-radius: 14px;
+
 }
 
 
@@ -662,6 +731,11 @@
   position: relative;
   border-radius: 7px;
   padding: 2px;
+
+}
+
+.tokens1 {
+  height: 100% !important;
 }
 
 .tokens::after {
@@ -720,6 +794,10 @@
     --fs-18: 45px;
     --fs-19: 30px;
     --fs-20: 40px;
+  }
+
+  .w_btn {
+    max-width: 265px;
   }
 
   .my_col {
@@ -866,7 +944,7 @@
     --fs-10: 29px;
     --fs-11: 26px;
     --fs-12: 30px;
-    --fs-13: 32px;
+    --fs-13: 30px;
     --fs-14: 33px;
     --fs-15: 39px;
     --fs-16: 40px;
@@ -889,7 +967,7 @@
   }
 
   .position_circle {
-    left: -25px;
+    left: -35px;
     top: 70px;
   }
 
@@ -914,7 +992,7 @@
     --fs-10: 30px;
     --fs-11: 26px;
     --fs-12: 32px;
-    --fs-13: 36px;
+    --fs-13: 32px;
     --fs-14: 35px;
     --fs-15: 46px;
     --fs-16: 42px;
@@ -937,12 +1015,12 @@
     --fs-5: 25px;
     --fs-6: 28px;
     --fs-7: 29px;
-    --fs-8: 53px;
+    --fs-8: 43px;
     --fs-9: 31px;
     --fs-10: 32px;
     --fs-11: 33px;
     --fs-12: 35px;
-    --fs-13: 39px;
+    --fs-13: 32px;
     --fs-14: 40px;
     --fs-15: 42px;
     --fs-16: 47px;
@@ -952,7 +1030,7 @@
     --fs-20: 90px;
   }
 
-  .mw_600 {
+  .mw_750 {
     max-width: 750px;
   }
 }

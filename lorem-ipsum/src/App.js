@@ -26,7 +26,7 @@ function App() {
   }, []);
   return (
     <>
-      <div className="overflow_hidden_preloder">
+      <div className="overflow-hidden">
         {preload && <Preloader />}
         <Header />
         <Tokemonics />

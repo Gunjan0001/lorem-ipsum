@@ -45,7 +45,7 @@ const Footer = () => {
               </ul>
             </Col>
             <Col lg={3}>
-              <ul className="d-flex align-items-center gap-5 justify-content-lg-end justify-content-center mt-4 mt-lg-0">
+              <ul className="d-flex ps-0 align-items-center gap-5 justify-content-lg-end justify-content-center mt-4 mt-lg-0">
                 <li>
                   <a
                     href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"

@@ -21,7 +21,7 @@ const Backtotop = () => {
           <button
             id="btn"
             onClick={() => top()}
-            className=" position-fixed  mb-4 bottom-0 end-0 border-0 bg-transparent me-2"
+            className=" position-fixed z_index  mb-4 bottom-0 end-0 border-0 bg-transparent me-2"
           >
             <img className="w_50" src={back_to_top} />
           </button>

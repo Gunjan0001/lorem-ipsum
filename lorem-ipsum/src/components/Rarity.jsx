@@ -10,29 +10,65 @@ const Rarity = () => {
           <h2 className="commom_heading text-center">Rarity</h2>
           <Row className="  justify-content-xl-between justify-content-center justify-content-xl-start pt-5">
             <div className="my_col ">
-              <button className="mb-0 ff_fira_code fw_bold fs_28 button_rarity border-0 clr_6 w-100">
-                Background
-              </button>{" "}
+              <div
+                data-aos="zoom-out-right"
+                data-aos-delay="300"
+                data-aos-offset="200"
+                data-aos-duration="2000"
+              >
+                <button className="mb-0 ff_fira_code fw_bold fs_28 button_rarity border-0 clr_6 w-100">
+                  Background
+                </button>{" "}
+              </div>
             </div>{" "}
             <div className="my_col mb-4 mb-xl-0">
-              <button className="mb-0 ff_fira_code fw_bold fs_28 button_rarity border-0 clr_6 w-100">
-                Skin
-              </button>{" "}
+              <div
+                data-aos="zoom-out-right"
+                data-aos-delay="300"
+                data-aos-offset="200"
+                data-aos-duration="2000"
+              >
+                <button className="mb-0 ff_fira_code fw_bold fs_28 button_rarity border-0 clr_6 w-100">
+                  Skin
+                </button>{" "}
+              </div>
             </div>{" "}
             <div className="my_col mb-4 mb-xl-0">
-              <button className="mb-0 ff_fira_code fw_bold fs_28 button_rarity border-0 clr_6 w-100">
-                Clothes
-              </button>{" "}
+              <div
+                data-aos="zoom-out-right"
+                data-aos-delay="300"
+                data-aos-offset="200"
+                data-aos-duration="2000"
+              >
+                <button className="mb-0 ff_fira_code fw_bold fs_28 button_rarity border-0 clr_6 w-100">
+                  Clothes
+                </button>{" "}
+              </div>
             </div>{" "}
             <div className="my_col mb-4 mb-xl-0">
-              <button className="mb-0 ff_fira_code fw_bold fs_28 button_rarity border-0 clr_6 w-100">
-                Eyes
-              </button>{" "}
+              <div
+                data-aos="zoom-out-left"
+                data-aos-delay="300"
+                data-aos-offset="200"
+                data-aos-duration="2000"
+              >
+                <button className="mb-0 ff_fira_code fw_bold fs_28 button_rarity border-0 clr_6 w-100">
+                  Eyes
+                </button>{" "}
+              </div>
             </div>{" "}
             <div className="my_col mb-4 mb-xl-0">
-              <button className="mb-0 ff_fira_code fw_bold fs_28 button_rarity border-0 clr_6 w-100">
-                Hats
-              </button>
+              {" "}
+              <div
+                data-aos="zoom-out-left"
+                data-aos-delay="300"
+                data-aos-offset="200"
+                data-aos-duration="2000"
+              >
+                <button className="mb-0 ff_fira_code fw_bold fs_28 button_rarity border-0 clr_6 w-100">
+                  Hats
+                </button>
+              </div>
             </div>
           </Row>
           <div className="py-4">
@@ -45,15 +81,19 @@ const Rarity = () => {
                 data-aos="zoom-in-up"
                 data-aos-delay="300"
                 data-aos-offset="200"
+                data-aos-duration="2000"
               >
-                <div className="map text-center py-4 p-sm-4">
+                <div className=" cards  text-center py-4 p-sm-4">
                   <img className="w-50" src={dude} alt="dude" />
                   <p className="ff_ubuntu fw_bold fs_29 text-white mb-0 pt-3">
                     Random Dude
                   </p>
-                  <button className="btn_17 ff_source_sans_pro fw_large fs_22  border-0 px-3 clr_12 mb-5 mt-3">
-                    17%
-                  </button>
+                  <span className="position-relative">
+                    <div className="overlay"></div>
+                    <button className="btn_17 ff_source_sans_pro fw_large fs_22  border-0 px-3 clr_12 mb-5 mt-3">
+                      17%
+                    </button>
+                  </span>
                 </div>
               </div>
             </Col>
@@ -63,15 +103,19 @@ const Rarity = () => {
                 data-aos="zoom-in-up"
                 data-aos-delay="300"
                 data-aos-offset="200"
+                data-aos-duration="2000"
               >
-                <div className="map text-center py-4 p-sm-4">
+                <div className=" cards  text-center py-4 p-sm-4">
                   <img className="w-50" src={dude} alt="dude" />
                   <p className="ff_ubuntu fw_bold fs_29 text-white mb-0 pt-3">
                     Random Dude
                   </p>
-                  <button className="btn_17 ff_source_sans_pro fw_large fs_22  border-0 px-3 clr_12 mb-5 mt-3">
-                    17%
-                  </button>
+                  <span className="position-relative">
+                    <div className="overlay"></div>
+                    <button className="btn_17 ff_source_sans_pro fw_large fs_22  border-0 px-3 clr_12 mb-5 mt-3">
+                      17%
+                    </button>
+                  </span>
                 </div>
               </div>
             </Col>
@@ -81,15 +125,19 @@ const Rarity = () => {
                 data-aos="zoom-in-up"
                 data-aos-delay="300"
                 data-aos-offset="200"
+                data-aos-duration="2000"
               >
-                <div className="map text-center py-4 p-sm-4">
+                <div className=" cards  text-center py-4 p-sm-4">
                   <img className="w-50" src={dude} alt="dude" />
                   <p className="ff_ubuntu fw_bold fs_29 text-white mb-0 pt-3">
                     Random Dude
                   </p>
-                  <button className="btn_17 ff_source_sans_pro fw_large fs_22  border-0 px-3 clr_12 mb-5 mt-3">
-                    17%
-                  </button>
+                  <span className="position-relative">
+                    <div className="overlay"></div>
+                    <button className="btn_17 ff_source_sans_pro fw_large fs_22  border-0 px-3 clr_12 mb-5 mt-3">
+                      17%
+                    </button>
+                  </span>
                 </div>
               </div>
             </Col>
@@ -99,15 +147,19 @@ const Rarity = () => {
                 data-aos="zoom-in-up"
                 data-aos-delay="300"
                 data-aos-offset="200"
+                data-aos-duration="2000"
               >
-                <div className="map text-center py-4 p-sm-4">
+                <div className=" cards  text-center py-4 p-sm-4">
                   <img className="w-50" src={dude} alt="dude" />
                   <p className="ff_ubuntu fw_bold fs_29 text-white mb-0 pt-3">
                     Random Dude
                   </p>
-                  <button className="btn_17 ff_source_sans_pro fw_large fs_22  border-0 px-3 clr_12 mb-5 mt-3">
-                    17%
-                  </button>
+                  <span className="position-relative">
+                    <div className="overlay"></div>
+                    <button className="btn_17 ff_source_sans_pro fw_large fs_22  border-0 px-3 clr_12 mb-5 mt-3">
+                      17%
+                    </button>
+                  </span>
                 </div>
               </div>
             </Col>
@@ -117,15 +169,19 @@ const Rarity = () => {
                 data-aos="zoom-in-up"
                 data-aos-delay="300"
                 data-aos-offset="200"
+                data-aos-duration="2000"
               >
-                <div className="map text-center py-4 p-sm-4">
+                <div className=" cards  text-center py-4 p-sm-4">
                   <img className="w-50" src={dude} alt="dude" />
                   <p className="ff_ubuntu fw_bold fs_29 text-white mb-0 pt-3">
                     Random Dude
                   </p>
-                  <button className="btn_17 ff_source_sans_pro fw_large fs_22  border-0 px-3 clr_12 mb-5 mt-3">
-                    17%
-                  </button>
+                  <span className="position-relative">
+                    <div className="overlay"></div>
+                    <button className="btn_17 ff_source_sans_pro fw_large fs_22  border-0 px-3 clr_12 mb-5 mt-3">
+                      17%
+                    </button>
+                  </span>
                 </div>
               </div>
             </Col>
@@ -135,15 +191,19 @@ const Rarity = () => {
                 data-aos="zoom-in-up"
                 data-aos-delay="300"
                 data-aos-offset="200"
+                data-aos-duration="2000"
               >
-                <div className="map text-center py-4 p-sm-4">
+                <div className=" cards  text-center py-4 p-sm-4">
                   <img className="w-50" src={dude} alt="dude" />
                   <p className="ff_ubuntu fw_bold fs_29 text-white mb-0 pt-3">
                     Random Dude
                   </p>
-                  <button className="btn_17 ff_source_sans_pro fw_large fs_22  border-0 px-3 clr_12 mb-5 mt-3">
-                    17%
-                  </button>
+                  <span className="position-relative">
+                    <div className="overlay"></div>
+                    <button className="btn_17 ff_source_sans_pro fw_large fs_22  border-0 px-3 clr_12 mb-5 mt-3">
+                      17%
+                    </button>
+                  </span>
                 </div>
               </div>
             </Col>
@@ -153,15 +213,20 @@ const Rarity = () => {
                 data-aos="zoom-in-up"
                 data-aos-delay="300"
                 data-aos-offset="200"
+                data-aos-duration="2000"
               >
-                <div className="map text-center py-4 p-sm-4">
+                <div className=" cards  text-center py-4 p-sm-4">
                   <img className="w-50" src={dude} alt="dude" />
                   <p className="ff_ubuntu fw_bold fs_29 text-white mb-0 pt-3">
                     Random Dude
                   </p>
-                  <button className="btn_17 ff_source_sans_pro fw_large fs_22  border-0 px-3 clr_12 mb-5 mt-3">
-                    17%
-                  </button>
+
+                  <span className="position-relative">
+                    <div className="overlay"></div>
+                    <button className="btn_17 ff_source_sans_pro fw_large fs_22  border-0 px-3 clr_12 mb-5 mt-3">
+                      17%
+                    </button>
+                  </span>
                 </div>
               </div>
             </Col>
@@ -171,15 +236,20 @@ const Rarity = () => {
                 data-aos="zoom-in-up"
                 data-aos-delay="300"
                 data-aos-offset="200"
+                data-aos-duration="2000"
               >
-                <div className="map text-center py-4 p-sm-4">
+                <div className=" cards  text-center py-4 p-sm-4">
                   <img className="w-50" src={dude} alt="dude" />
                   <p className="ff_ubuntu fw_bold fs_29 text-white mb-0 pt-3">
                     Random Dude
                   </p>
-                  <button className="btn_17 ff_source_sans_pro fw_large fs_22  border-0 px-3 clr_12 mb-5 mt-3">
-                    17%
-                  </button>
+
+                  <span className="position-relative">
+                    <div className="overlay"></div>
+                    <button className="btn_17 ff_source_sans_pro fw_large fs_22  border-0 px-3 clr_12 mb-5 mt-3">
+                      17%
+                    </button>
+                  </span>
                 </div>
               </div>
             </Col>
